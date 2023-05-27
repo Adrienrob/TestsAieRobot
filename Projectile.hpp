@@ -24,6 +24,7 @@ class Projectile
         /* getters */
         int getPosX(){return _projectile.getPosition().x;}
         int getPosY(){return _projectile.getPosition().y;}
+        float getAngleShot(){return angle_shot;};
 
 };
 #endif
